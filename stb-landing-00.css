@@ -1,0 +1,103 @@
+article, aside, canvas, details, figcaption, figure, footer, header, title, hgroup, nav, 
+section, summary, video {
+	display: block;
+}
+
+body {
+    display: block;
+    margin: 50px;
+}
+
+.head {
+    font-family: 'Roboto', sans-serif;
+    font-size: 200%;
+}
+
+h1 {
+    
+}
+
+p {
+
+}
+
+.nav {
+    background-color: #4E4184;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    font-size: 20px;
+    padding: 20px 20px;
+    text-align: right;
+    display: inline-block;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+
+}
+
+.hero-image {
+    background-image: url("images/group.jpeg");
+    background-position: top;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text #button1 {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #F78D2C;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hero-text #button1:hover {
+    background-color: #dd6f08;
+    color: white;
+}
+
+.hero-text #button2 {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #F78D2C;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hero-text #button2:hover {
+    background-color: #dd6f08;
+    color: white;
+}
+
+.images {
+    
+}
+
+#footer {
+    
+}
